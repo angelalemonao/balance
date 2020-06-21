@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#63D568"
+    tools:context=".imc_salud">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="291dp"
+        android:layout_height="430dp"
+        app:srcCompat="@drawable/arbol"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="273dp"
+        android:layout_height="121dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Nos interesa tu salud!"
+        android:textSize="24sp"
+        android:textStyle="normal|bold|italic"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="269dp"
+        android:layout_height="59dp"
+        android:text="Cuentanos mas sobre ti"
+        android:textSize="24sp"
+        android:textStyle="normal|bold|italic"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="146dp"
+        android:layout_height="57dp"
+        android:text="Cuanto mides"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="139dp"
+        android:layout_height="54dp"
+        android:text="Cuanto pesas"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="130dp"
+        android:layout_height="56dp"
+        android:background="#C7D5B8"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="124dp"
+        android:layout_height="55dp"
+        android:background="#C7DFAA"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#050505"
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="311dp" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="89dp"
+        android:layout_height="67dp"
+        android:background="@drawable/btn_back"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="626dp" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="84dp"
+        android:layout_height="72dp"
+        android:background="@drawable/ver"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="626dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
