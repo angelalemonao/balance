@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".datos_enviados"></activity>
         <activity android:name=".musica" />
         <activity android:name=".ansiedad" />
         <activity android:name=".juegos" />
